@@ -1,0 +1,56 @@
+/*This provides the background image, font, and general font color*/
+
+body {
+  background-image: url(https://www.perkypet.com/media/wysiwyg/Articles/More-Birds/fill-your-bird-feeder-with-nuts-and-berries.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+/*This provides the background color for each section, sets opacity, and establishes the margin and color using the box model*/
+
+.heading,
+.seed,
+.seasonal-food,
+.bird-accessories,
+.closing {
+  background-color: rgba(0, 0, 0, 0.774);
+  opacity: 0.9;
+  margin: 50px 30px 50px 30px;
+  border: 5px dashed red;
+}
+
+/*This establishes the required different background color for each header*/
+
+header {
+  background-color: darkgray;
+}
+
+h1,
+h2,
+h4 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+/*This adds padding to the images using the box model*/
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px 20px 50px 20px;
+  width: 50%;
+}
+
+th {
+  text-align: center;
+}
+
+tr {
+  text-align: left;
+}
